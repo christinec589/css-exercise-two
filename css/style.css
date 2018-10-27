@@ -1,13 +1,28 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #0044ff2d;
+  color: rgb(34, 34, 107);
+  font-size: 16px;
+  line-height: 125%;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgb(0, 0, 0);
   float: left;
   position: fixed;
   width: 100%;
+  font-size: 1.2em;
+}
+
+h1 { font-size: 2em;
+  line-height: 200%;
+}
+
+h3 { font-size: 1.2em;
+  line-height: 100%;
+}
+
+figcaption { font-size: 0.75em;
+  line-height: 50%;
 }
 
 .logo {
@@ -42,6 +57,14 @@ li {
   padding: 30px;
 }
 
+a { text-decoration: none;
+}
+
+a:link { color:rgb(32, 15, 189); } /* unvisited */
+a:visited { color:rgb(54, 161, 233); } /* visited */
+a:hover { color:rgb(135, 95, 209); } /* mouse over */
+a:active { color:rgb(3, 67, 110); } /* selected */
+
 article {
   padding-top: 100px;
 }
@@ -50,3 +73,9 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+.author { 
+  font-size: .80em;
+  line-height: 150%;
+ }
+
